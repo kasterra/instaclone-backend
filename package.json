@@ -1,0 +1,39 @@
+{
+  "name": "instaclone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --exec babel-node server",
+    "migrate": "npx prisma migrate dev",
+    "studio": "npx prisma studio"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kasterra/instaclone-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kasterra/instaclone-backend/issues"
+  },
+  "homepage": "https://github.com/kasterra/instaclone-backend#readme",
+  "devDependencies": {
+    "@babel/core": "^7.21.8",
+    "@babel/node": "^7.20.7",
+    "@babel/preset-env": "^7.21.5",
+    "@babel/preset-typescript": "^7.21.5",
+    "nodemon": "^2.0.22",
+    "prisma": "^4.13.0",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "@graphql-tools/load-files": "^6.6.1",
+    "@graphql-tools/merge": "^8.4.1",
+    "@graphql-tools/schema": "^9.0.19",
+    "@prisma/client": "^4.13.0",
+    "apollo-server": "^2.25.2",
+    "dotenv": "^16.0.3"
+  }
+}
